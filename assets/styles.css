@@ -165,3 +165,12 @@ footer{padding:56px 0 110px;border-top:1px solid rgba(255,255,255,.07);backgroun
   footer{padding-bottom:56px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+/* --- ajustes 10/11 --- */
+.sub-h1{font-family:"Sora";font-weight:700;font-size:1.35rem;color:#e9e3ff;margin:-4px 0 14px}
+.card-main{position:relative;border-color:rgba(236,72,153,.55);box-shadow:0 0 0 1px rgba(236,72,153,.25),0 20px 50px -20px rgba(236,72,153,.5)}
+.start{position:absolute;top:-12px;right:18px;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;background:var(--grad);color:#fff;padding:4px 12px;border-radius:999px}
+.price .valor{font-size:1.1rem;color:#fff;margin:6px 0 10px;line-height:1.7}
+.price .valor b{font-family:"Sora";font-size:1.35rem}
+.piloto-box{text-align:center}
+.piloto-box h2{margin-top:10px}
