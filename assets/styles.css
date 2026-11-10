@@ -174,3 +174,9 @@ footer{padding:56px 0 110px;border-top:1px solid rgba(255,255,255,.07);backgroun
 .price .valor b{font-family:"Sora";font-size:1.35rem}
 .piloto-box{text-align:center}
 .piloto-box h2{margin-top:10px}
+/* menu sem quebrar entre 1024 e 1199px (10/11) */
+.nav a{white-space:nowrap}
+@media (min-width:1024px) and (max-width:1199px){
+  .nav{gap:16px}
+  .nav a{font-size:.95rem}
+}
